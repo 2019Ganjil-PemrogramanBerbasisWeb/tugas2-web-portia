@@ -33,53 +33,17 @@ session_start();
 			</div>
 
 			<p class="txt-center m1-txt1 p-t-33 p-b-68">
-				Our website is under construction
+				Thank you for joining us!
 			</p>
 			<p class="txt-center m1-txt1 p-t-33 p-b-68">
-			<?php
-			
-			echo ("Welcome, " . $_SESSION['username']);
-			?>
-			</p>
-			<div class="wsize2 flex-w flex-c hsize1 cd100">
-				<div class="flex-col-c-m size2 how-countdown">
-					<span class="l1-txt1 p-b-9 days">35</span>
-					<span class="s1-txt1">Days</span>
-				</div>
-
-				<div class="flex-col-c-m size2 how-countdown">
-					<span class="l1-txt1 p-b-9 hours">17</span>
-					<span class="s1-txt1">Hours</span>
-				</div>
-
-				<div class="flex-col-c-m size2 how-countdown">
-					<span class="l1-txt1 p-b-9 minutes">50</span>
-					<span class="s1-txt1">Minutes</span>
-				</div>
-
-				<div class="flex-col-c-m size2 how-countdown">
-					<span class="l1-txt1 p-b-9 seconds">39</span>
-					<span class="s1-txt1">Seconds</span>
-				</div>
-			</div>
-
-
-			<form action="/register.html">
+		  <form action="/login.php">
 			<div style="text-align:center;">
 				<button type="submit" class="button1">
-					Register to get notified!
+					Login
 				</button>
 			</div>
 		</form>
-		<form action="/logout.php">
-		<div style="text-align:center;">
-			<button type="submit" class="button1">
-			Logout
-			</button>
-		</div>
 	</form>
-
-</form>
 
 
 
@@ -98,25 +62,7 @@ session_start();
 <!--===============================================================================================-->
 	<script src="vendor/select2/select2.min.js"></script>
 <!--===============================================================================================-->
-	<script src="vendor/countdowntime/moment.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-	<script>
-		$('.cd100').countdown100({
-			/*Set Endtime here*/
-			/*Endtime must be > current time*/
-			endtimeYear: 0,
-			endtimeMonth: 0,
-			endtimeDate: 35,
-			endtimeHours: 18,
-			endtimeMinutes: 0,
-			endtimeSeconds: 0,
-			timeZone: "Asia/Jakarta"
-			// ex:  timeZone: "America/New_York"
-			//go to " http://momentjs.com/timezone/ " to get timezone
-		});
-	</script>
+
 <!--===============================================================================================-->
 	<script src="vendor/tilt/tilt.jquery.min.js"></script>
 	<script >
