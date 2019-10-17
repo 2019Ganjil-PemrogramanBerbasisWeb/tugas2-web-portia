@@ -108,11 +108,11 @@ session_start();
 			/*Endtime must be > current time*/
 			endtimeYear: 0,
 			endtimeMonth: 0,
-			endtimeDate: 35,
+			endtimeDate: 0,
 			endtimeHours: 18,
 			endtimeMinutes: 0,
 			endtimeSeconds: 0,
-			timeZone: "Asia/Jakarta"
+			timeZone: ""
 			// ex:  timeZone: "America/New_York"
 			//go to " http://momentjs.com/timezone/ " to get timezone
 		});
