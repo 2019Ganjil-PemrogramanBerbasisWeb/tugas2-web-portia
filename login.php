@@ -45,7 +45,7 @@ session_start();
                     </div>
                     <div class="signup-form">
                         <figure><img src="images/logo.png" alt="sing up image"></figure>
-                        <a href="/register.html">New here?</a>
+                        <a href="./register.html">New here?</a>
                     </div>
                 </div>
             </div>

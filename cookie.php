@@ -27,7 +27,7 @@ if( isset($_SESSION['userid']) ){
 
  if( $count > 0 ){
   $_SESSION['userid'] = $userid;
-  header('Location: /landing.html');
+  header('Location: ./landing.html');
   exit;
  }
 }

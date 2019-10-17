@@ -36,7 +36,7 @@ session_start();
 				Thank you for joining us!
 			</p>
 			<p class="txt-center m1-txt1 p-t-33 p-b-68">
-		  <form action="/login.php">
+		  <form action="./login.php">
 			<div style="text-align:center;">
 				<button type="submit" class="button1">
 					Login

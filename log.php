@@ -20,7 +20,7 @@ if ($_POST['password'] == $user->password){
     $_SESSION['email'] = $user->email;
     $_SESSION['user_id'] = $user->id;
 
-header('Location: /landing.php');
+header('Location: ./landing.php');
 }
   }
   else{

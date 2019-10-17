@@ -37,7 +37,7 @@ session_start();
 			</p>
 			<p class="txt-center m1-txt1 p-t-33 p-b-68">
 			<?php
-			
+
 			echo ("Welcome, " . $_SESSION['username']);
 			?>
 			</p>
@@ -64,14 +64,14 @@ session_start();
 			</div>
 
 
-			<form action="/register.html">
+			<form action="./register.html">
 			<div style="text-align:center;">
 				<button type="submit" class="button1">
 					Register to get notified!
 				</button>
 			</div>
 		</form>
-		<form action="/logout.php">
+		<form action="./logout.php">
 		<div style="text-align:center;">
 			<button type="submit" class="button1">
 			Logout

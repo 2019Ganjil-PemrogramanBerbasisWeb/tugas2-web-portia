@@ -28,5 +28,5 @@ if (!empty($username)){
     echo "Username should not be empty";
     die();
   }
-header('Location: /landing.html');
+header('Location: ./regland.php');
  ?>
