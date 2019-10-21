@@ -19,6 +19,7 @@ if ($_POST['password'] == $user->password){
     $_SESSION['username'] = $user->username;
     $_SESSION['email'] = $user->email;
     $_SESSION['user_id'] = $user->id;
+    $_SESSION['loggedIn'] = true;
 
 header('Location: ./landing.php');
 }
