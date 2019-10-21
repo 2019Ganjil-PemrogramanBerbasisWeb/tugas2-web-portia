@@ -25,7 +25,7 @@ header('Location: ./landing.php');
 }
   }
   else{
-  echo "Password/Username should not be empty";
+  echo "Password/Username wrong or empty";
   die();
     }
 }
