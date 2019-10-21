@@ -6,6 +6,7 @@ $email = $_POST['email'];
 //dbx_connect
 if (!empty($username)){
   if (!empty($password)){
+    if (!empty($email)){
     mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
     $conn = new mysqli('localhost','root','','register');
     if($conn->connect_error){
