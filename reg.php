@@ -18,6 +18,9 @@ if (!empty($username)){
         $stmt->close();
         $conn->close();
       }
+    }else {
+      echo "Email should not be empty";
+      die();
   }
     else{
       echo "Password should not be empty";
