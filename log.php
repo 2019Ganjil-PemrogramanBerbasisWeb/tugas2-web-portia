@@ -1,4 +1,8 @@
 <?php
+
+if (!isset($_POST['username']) || !isset($_POST['password'])); {
+  header("Location: ./login.html");
+}
 session_start();
 $username = $_POST['username'];
 $password = $_POST['password'];
