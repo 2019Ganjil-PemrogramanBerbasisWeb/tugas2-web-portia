@@ -1,7 +1,4 @@
 <?php
-if (!isset($_POST['username']) || !isset($_POST['password']) || !isset($_POST['email'])); {
-  header("Location: register.html");
-}
 session_start();
 ?>
 
